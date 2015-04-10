@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcomescreen">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_vertical|bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="@string/txtregion" />
+
+            <Spinner
+                android:id="@+id/spinnerregions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/spinner_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="@string/txtsection" />
+
+            <Spinner
+                android:id="@+id/spinnersections"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/spinner_style"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtstart"
+            android:textColor="@color/textspinner"
+            android:id="@+id/dialogstart"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

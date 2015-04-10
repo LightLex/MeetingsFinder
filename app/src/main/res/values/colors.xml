@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#529ac8</color>
+    <color name="accentColor">#CE1483</color>
+    <color name="accentPressColor">#DD7AD5</color>
+    <color name="primaryDarkColor">#0c85bb</color>
+    <color name="dividercolor">#EEEEEE</color>
+
+    <!--TRANSPARENT -->
+    <color name="trans">#00000000</color>
+
+    <!--SWIPE COLORS -->
+    <color name="sw1">#529ac8</color>
+    <color name="sw2">#CE1483</color>
+    <color name="sw3">#0F2B2D</color>
+    <color name="sw4">#EB8258</color>
+
+    <!--IEEE COLORS FROM DARK TO BRIGHT -->
+    <color name="ie1">#0073AE</color>
+    <color name="ie2">#0C85BB</color>
+    <color name="ie3">#529AC8</color>
+    <color name="ie4">#89B5D8</color>
+    <color name="textspinner">#FFFFFF</color>
+</resources>
+
+    <!-- PARA EFECTOS DE IEEE COLORS, SE ESCRIBEN AQUI PARA ADECUARLOS CON MATERIAL DESIGN -->

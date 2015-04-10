@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference android:title="@string/prefregion"
+        android:key="@string/prefregion"/>
+
+    <EditTextPreference android:title="@string/prefsection"
+        android:key="@string/prefsection"/>
+
+    <EditTextPreference android:title="@string/prefregionname"
+        android:key="@string/prefregionname"/>
+
+    <EditTextPreference android:title="@string/prefsectionname"
+        android:key="@string/prefsectionname"/>
+
+</PreferenceScreen>

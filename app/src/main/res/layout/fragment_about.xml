@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borders">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/abtus"
+            android:id="@+id/AboutMSN"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AboutMSN"
+            android:text="@string/abtinf"
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+            android:id="@+id/AboutUs" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AboutUs"
+            android:text="@string/email"
+            android:id="@+id/textView8"
+            android:autoLink="email"/>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AboutUs"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        <TableRow
+            android:paddingTop="25dp"
+            android:paddingBottom="5dp">
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dmtc"
+            android:id="@+id/dmt"
+            android:contentDescription="@string/dmttxt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dmttxt"
+                android:id="@+id/txdmt"
+                android:paddingLeft="5dp"
+                android:textColor="@color/bright_foreground_inverse_material_dark"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iekumdarioc"
+            android:id="@+id/ieku"
+            android:contentDescription="@string/iektxt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/iektxt"
+                android:id="@+id/txiek"
+                android:paddingLeft="5dp"
+                android:textColor="@color/bright_foreground_inverse_material_dark"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ltc"
+            android:id="@+id/ltc"
+            android:contentDescription="@string/lttxt"    />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="@string/lttxt"
+                android:textColor="@color/bright_foreground_inverse_material_dark"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+
+            </TableLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

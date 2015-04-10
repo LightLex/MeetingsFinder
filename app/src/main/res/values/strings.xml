@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">MeetingsFinder</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="maintitle">Meetings Finder</string>
+    <string name="drawer_open">Menu</string>
+    <string name="textcurregion">My current Region</string>
+    <string name="txtregion">Region</string>
+    <string name="txtsection">Section</string>
+    <string name="defrys">Defined Region and Section</string>
+    <string name="txtmeetnearby">Meetings nearby</string>
+    <string name="txtupdate">update</string>
+    <string name="txtsearching">Looking active meetings&#8230;</string>
+    <string name="txtfindmeetings">Available meetings</string>
+    <string name="advncdsrch">Advanced search</string>
+    <string name="rnotific">Receive notifications</string>
+    <string name="notific">Notifications</string>
+    <string name="abtus">About Us</string>
+    <string name="dmttxt">Daniel Martinez\nLeader Developer\nDesigner</string>
+    <string name="iektxt">Jose Quintero\nDeveloper/Designer</string>
+    <string name="lttxt">Alexey Evdokimov\nDeveloper/Designer</string>
+    <string name="register">REGISTER</string>
+    <string name="details">DETAILS</string>
+    <string name="date">Date:</string>
+    <string name="virtual">Virtual:</string>
+    <string name="help">
+    <![CDATA[
+    <b>Find Meetings:</b><p>
+    Meetings near your location will appear on the home screen after opening the app or when tapping the home option on the navigation drawer. Slide down to update<p>
+    <b>Meeting Info:</b><p>
+    Upon selecting a meeting detail from the Home Screen, you can check the meeting location and other info such as address, contact, time, etc. You can also choose to attend this meeting to be notified when its coming. You can change how often you want to be notified from the settings.
+    ]]>
+    </string>
+
+    <string name="abtinf">Thanks for using our IEEE Meting app.\nTo contact us please write to:
+    </string>
+    <string name="prefregion">prefregion</string>
+    <string name="prefsection">prefsection</string>
+    <string name="prefname">meetings</string>
+    <string name="txtstart">Start</string>
+    <string name="errmsgregsec">Please select the region and section</string>
+    <string name="txtregister">Register</string>
+    <string name="txtloading">Fetching data, please wait</string>
+    <string name="txtcantload">Can not load data, please try later</string>
+    <string name="txtloadingtitle">Loading</string>
+    <string name="txthome">Meetings Nearby</string>
+    <string name="txthelp">Help</string>
+    <string name="txtabout">About</string>
+    <string name="txtsettings">Settings</string>
+    <string name="email">apps.dmt@gmail.com</string>
+    <string name="txtchangeregion">Change</string>
+    <string name="prefregionname">prefregioname</string>
+    <string name="prefsectionname">prefsectionname</string>
+    <string name="txtchangeregsec">Select Region and Section</string>
+    <string name="msgregerror">Sorry, can not load register link</string>
+    <string name="msgnomeetings">No upcoming meetings</string>
+
+    <string-array name="menutexts">
+        <item >Home</item>
+        <item >Settings</item>
+        <item >Help</item>
+        <item >About</item>
+    </string-array>
+
+    <integer-array name="menuimages">
+        <item >@drawable/ic_home_grey600_24dp</item>
+        <item >@drawable/ic_settings_grey600_24dp</item>
+        <item >@drawable/ic_help_grey600_24dp</item>
+        <item >@drawable/ic_info_grey600_24dp</item>
+    </integer-array>
+
+    <string-array name="regions">
+        <item >1 - Northeastern USA</item>
+        <item >2 - Eastern USA</item>
+        <item >3 - Southeastern USA</item>
+        <item >4 - Central USA</item>
+        <item >5 - Southwestern USA</item>
+        <item >6 - Western USA</item>
+        <item >7 - Canada</item>
+        <item >8 - Europe, Middle East and Africa</item>
+        <item >9 - Latin America</item>
+        <item >10 - Asia and Pacific</item>
+    </string-array>
+</resources>

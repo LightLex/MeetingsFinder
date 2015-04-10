@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="android:spinnerDropDownItemStyle">@style/welcomespinner</item>
+    </style>
+
+    <style name="meetingstyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+
+    </style>
+
+    <style name="spinner_style" >
+    <item name="android:background">@drawable/spinner</item>
+    <item name="android:layout_marginLeft">10dp</item>
+    <item name="android:layout_marginRight">10dp</item>
+    <item name="android:layout_marginBottom">10dp</item>
+    <item name="android:paddingLeft">8dp</item>
+    <item name="android:paddingTop">5dp</item>
+    <item name="android:paddingBottom">5dp</item> </style>
+
+    <style name="welcome" parent="AppTheme.Base" >
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="welcomespinner" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/textspinner</item>
+    </style>
+
+</resources>
